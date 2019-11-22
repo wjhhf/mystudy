@@ -1,0 +1,11 @@
+2019-11-21 17:55:59|INFO |com.hhf.study.constant.FileConstant|<init>|47 -> 初始化文件夹
+2019-11-21 17:55:59|INFO |com.hhf.study.constant.FileConstant|init|64 -> 初始化文件列表完成，最近2分钟文件共0个，添加至缓存队列，当前队列数:0
+2019-11-21 17:55:59|INFO |com.hhf.study.constant.FileConstant|init|69 -> 初始化缓存文件夹成功，路径为:D:\convert\cache
+2019-11-21 17:55:59|INFO |com.hhf.study.constant.FileConstant|init|74 -> 初始化备份文件夹成功，路径为:D:\convert\backup
+2019-11-21 17:55:59|INFO |com.hhf.study.thread.MonitorThread|<init>|44 -> 开始监控文件夹D:\wechat\WeChat Files\qq372573336\FileStorage\Image\2019-11
+2019-11-21 17:55:59|INFO |com.hhf.study.contorller.ListernerController|start|38 -> 线程handlerThread已注册
+2019-11-21 17:55:59|INFO |com.hhf.study.contorller.ListernerController|start|38 -> 线程monitorThread已注册
+2019-11-21 17:55:59|INFO |com.hhf.study.handle.DeleteCacheTimer|deleteCacheFiles|26 -> 清除缓存文件定时器开启，每隔120秒执行一次
+2019-11-21 17:55:59|INFO |com.hhf.study.thread.HandlerThread|run|39 -> 执行器com.hhf.study.handle.impl.CacheFileHandler@a9d1fa2已注册
+2019-11-21 17:55:59|INFO |com.hhf.study.thread.HandlerThread|run|39 -> 执行器com.hhf.study.handle.impl.BackupFileHandler@45ae081已注册
+2019-11-21 17:55:59|INFO |com.hhf.study.handle.DeleteCacheTimer|run|86 -> 每天0点刷新文件夹，当前文件夹:2019-11

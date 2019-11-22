@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>servlet</servlet-name>
+        <servlet-class>study.util.study.mytomcat.servlet.impl.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>yourServlet</servlet-name>
+        <servlet-class>study.util.study.mytomcat.servlet.impl.YourServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>yourServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+</web-app>
