@@ -8,7 +8,6 @@ com\hhf\study\handle\DeleteCacheTimer$2.class
 com\hhf\study\start\NoRecallApplication.class
 com\hhf\study\handle\DeleteCacheTimer.class
 com\hhf\study\util\DateUtil.class
-com\hhf\study\handle\impl\CacheFileHandler.class
 com\hhf\study\constant\FileConstant.class
 com\hhf\study\thread\MonitorThread.class
 com\hhf\study\handle\impl\BackupFileHandler.class

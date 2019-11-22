@@ -1,11 +1,15 @@
 package com.hhf.study.thread;
 
 import com.hhf.study.constant.FileConstant;
+import com.hhf.study.util.FileUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.channels.FileChannel;
+import java.nio.channels.FileLock;
 import java.nio.file.Paths;
 import java.nio.file.StandardWatchEventKinds;
 import java.nio.file.WatchEvent;
@@ -60,8 +64,16 @@ public class MonitorThread extends BaseThread {
                            Object[] news = {createNum, modifiedTime};
                            FileConstant.createMap.put(event.context().toString(), news);
                            if (createNum == 2) {
-                               FileConstant.cacheQueryList.add(event.context().toString());
-                               logger.info("新增文件" + event.context() + "添加至缓存队列,当前队列数：" + FileConstant.cacheQueryList.size());
+                               //FileConstant.cacheQueryList.add(event.context().toString());
+                               //logger.info("新增文件" + event.context() + "添加至缓存队列,当前队列数：" + FileConstant.cacheQueryList.size());
+                               File src = new File(FileConstant.monitorDir + File.separator +FileConstant.nowMonth + File.separator + event.context().toString());
+                               File desc = new File(FileConstant.cacheDir + File.separator + src.getName());
+                               try {
+                                   FileUtil.copyFile(src, desc);
+                                   logger.info("新增文件添加至缓存文件夹成功，路径为:{}",desc.getAbsolutePath());
+                               } catch (Exception e1) {
+                                   logger.error("",e1);
+                               }
 
                            }
                        }

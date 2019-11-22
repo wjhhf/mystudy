@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <children>
@@ -20,7 +22,8 @@
             </Menu>
             <Menu mnemonicParsing="false" text="关于">
                <items>
-                  <MenuItem mnemonicParsing="false" onAction="#about" text="关于" />
+                  <MenuItem mnemonicParsing="false" text="教程" />
+                  <MenuItem mnemonicParsing="false" onAction="#aboutApp" text="关于本程序" />
                </items>
             </Menu>
       </menus>
@@ -28,6 +31,10 @@
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
             <Button fx:id="monitorButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#monitor" text="开始监控" />
+            <Label layoutX="17.0" layoutY="55.0" prefHeight="45.0" prefWidth="169.0" text="操作教程见   关于-&gt;教程" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
       </children>
     </AnchorPane>
   </children>

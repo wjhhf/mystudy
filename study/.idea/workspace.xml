@@ -39,43 +39,11 @@
       <file leaf-file-name="NoRecallApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/start/NoRecallApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2357#2358#0" expanded="true" />
-                <element signature="e#2413#2414#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/BaseThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonitorThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/MonitorThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+            <state relative-caret-position="1000">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheFileHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/CacheFileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -83,8 +51,8 @@
       <file leaf-file-name="BackupFileHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/BackupFileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="450">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,20 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeChatImgRevert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/WeChatImgRevert.java">
+      <file leaf-file-name="MonitorThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/MonitorThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/FileUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+            <state relative-caret-position="1425">
+              <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +75,8 @@
       <file leaf-file-name="FileConstant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/constant/FileConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="450">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandlerThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/HandlerThread.java">
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/FileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="56">
+              <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +141,6 @@
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/FileConstant.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/BackupFileHandler.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/DeleteCacheFileHandler.java" />
-        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/constant/FileConstant.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/MonitorHandler.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/MoveFileHandler.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/MonitorHandler.java" />
@@ -198,7 +156,6 @@
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/impl/MainListerner.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/MonitorListerner.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/Start.java" />
-        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/CacheFileHandler.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/pom.xml" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/start/StartApplication.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/ListernerController.java" />
@@ -207,12 +164,14 @@
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/BaseThread.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/contorller/ListernerController.java" />
-        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/MonitorThread.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/HandlerThread.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/DeleteCacheTimer.java" />
+        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/CacheFileHandler.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/start/NoRecallApplication.java" />
-        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/WeChatImgRevert.java" />
+        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/MonitorThread.java" />
+        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/constant/FileConstant.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/BackupFileHandler.java" />
+        <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/WeChatImgRevert.java" />
         <option value="$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/FileUtil.java" />
       </list>
     </option>
@@ -268,7 +227,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
@@ -278,7 +237,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,18 +247,61 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="norecall_wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="norecall_wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="norecall_wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="norecall_wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="norecall_wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="norecall_wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../norecall_desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -456,49 +460,51 @@
       <workItem from="1573528807661" duration="40353000" />
       <workItem from="1574126795379" duration="15282000" />
       <workItem from="1574146750026" duration="60612000" />
+      <workItem from="1574399000185" duration="7914000" />
+      <workItem from="1574409139214" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116247000" />
+    <option name="totallyTimeSpent" value="125048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" sideWeight="0.49714285" weight="0.32980332" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37254903" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24346405" />
-      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.50285715" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32352942" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49714285" weight="0.32980332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.60620916" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.50285715" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,11 +547,16 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="120" />
+      <option name="time" value="129" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>FileConstant.cacheDir + File.separator + src.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>getFileCreateTime(file1)</expression-string>
         <language-id>JAVA</language-id>
@@ -585,12 +596,6 @@
       <expression>
         <expression-string>targetPath + File.separator + file1.getName().split(&quot;\\.&quot;)[0] + (xor[0] != null ?
                                  &quot;.&quot; + xor[0] : &quot;&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>targetPath + File.separator + file1.getName().split(&quot;\\.&quot;)[0] + (xor[0] != null ?
-                                 &quot;.&quot; + xor[0] : &quot;&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -660,10 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="25" column="99" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5893#5909#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,13 +794,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/handle/ReflushDirHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/handle/ReflushDirHandler.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -817,16 +812,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/BackupFileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/BackupFileHandler.java" />
     <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -844,13 +830,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/BaseListerner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/BaseListerner.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -865,13 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/ListernerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/listerner/ListernerController.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -886,20 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/BaseThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/contorller/ListernerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,30 +876,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/start/NoRecallApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        <state relative-caret-position="1000">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/constant/FileConstant.java">
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/BaseThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/CacheFileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-971">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/HandlerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="209">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/WeChatImgRevert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="145" column="35" lean-forward="true" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/constant/FileConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/BackupFileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,42 +934,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/thread/MonitorThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        <state relative-caret-position="1425">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/CacheFileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/handle/impl/BackupFileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/WeChatImgRevert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/norecall_wechat/src/main/java/com/hhf/study/util/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        <state relative-caret-position="56">
+          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

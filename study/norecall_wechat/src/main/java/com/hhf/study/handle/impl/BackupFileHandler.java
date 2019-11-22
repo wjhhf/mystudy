@@ -22,10 +22,15 @@ public class BackupFileHandler implements BaseHandler {
         //撤回文件就解析dat文件并放到backup目录
         if(FileConstant.backupQueryList.size()>0){
             File src = new File(FileConstant.cacheDir+File.separator+FileConstant.backupQueryList.get(0));
-            WeChatImgRevert.convertSingleFile(src, FileConstant.backupDir+File.separator+FileConstant.nowMonth);
-            //将该文件从map中去除
+            if(src.exists()){
+                WeChatImgRevert.convertSingleFile(src, FileConstant.backupDir+File.separator+FileConstant.nowMonth);
+                logger.info("解析撤回文件"+src.getName()+"完成"+",当前队列数："+ FileConstant.backupQueryList.size());
+            }else{
+                //如果文件目前不存在，就将其添加到最后一位确保该文件会被备份
+                FileConstant.backupQueryList.add(src.getName());
+            }
+            //将map中第一位去除
             FileConstant.backupQueryList.remove(0);
-            logger.info("解析撤回文件"+src.getName()+"完成"+",当前队列数："+ FileConstant.backupQueryList.size());
         }
     }
 }

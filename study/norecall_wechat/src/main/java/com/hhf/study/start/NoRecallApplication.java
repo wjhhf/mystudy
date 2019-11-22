@@ -7,7 +7,6 @@ import com.hhf.study.contorller.ListernerController;
 import com.hhf.study.handle.BaseHandler;
 import com.hhf.study.handle.DeleteCacheTimer;
 import com.hhf.study.handle.impl.BackupFileHandler;
-import com.hhf.study.handle.impl.CacheFileHandler;
 import com.hhf.study.thread.BaseThread;
 import com.hhf.study.thread.HandlerThread;
 import com.hhf.study.thread.MonitorThread;
@@ -53,8 +52,8 @@ public class NoRecallApplication {
         baseDir+=File.separator+wechatId+File.separator+"FileStorage"+File.separator+"Image";
         //初始化常量信息
         new FileConstant(baseDir,desDir);
-        //注册执行器
-        BaseHandler[] handlers ={new CacheFileHandler(),new BackupFileHandler()};
+        //注册执行器，此处将CahcheFileHandler去除，在监控到新增文件时直接拷贝
+        BaseHandler[] handlers ={new BackupFileHandler()};
         HandlerThread.getInstance().registerHandler(handlers);
         //注册线程
         BaseThread[] threads = {HandlerThread.getInstance(),MonitorThread.getInstance()};

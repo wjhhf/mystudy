@@ -56,12 +56,6 @@ public class FileConstant{
     }
 
     public static void init() throws Exception{
-        //先获取最近两分钟的文件
-        List<File> files=FileUtil.getFilesByLastModifiedTime(monitorDir+File.separator+nowMonth,5,-2);
-        for(File file :files){
-            cacheQueryList.add(file.getName());
-        }
-        logger.info("初始化文件列表完成，最近2分钟文件共"+ cacheQueryList.size()+"个，添加至缓存队列，当前队列数:"+cacheQueryList.size());
         File cacheFiles = new File(cacheDir);
         if(!cacheFiles.exists()){
             cacheFiles.mkdirs();
@@ -72,6 +66,19 @@ public class FileConstant{
             backupFiles.mkdirs();
         }
         logger.info("初始化备份文件夹成功，路径为:"+backupDir);
+        //获取最近两分钟的文件
+        List<File> files=FileUtil.getFilesByLastModifiedTime(monitorDir+File.separator+nowMonth,5,-2);
+        for(File src :files){
+            File desc = new File(FileConstant.cacheDir + File.separator + src.getName());
+            FileUtil.copyFile(src, desc);
+            //将该文件添加进createMap和backupMap中
+            Object[] createInfo = {2,src.lastModified()};//已经创建成功
+            FileConstant.createMap.put(src.getName(),createInfo);
+            Object[] deleteInfo = {1,src.lastModified()};//待撤回
+            FileConstant.deleteMap.put(src.getName(),deleteInfo);
+        }
+        logger.info("初始化文件列表完成，最近2分钟文件共"+ files.size()+"个，已添加至缓存文件夹");
+
         watchService=FileSystems.getDefault().newWatchService();
     }
 }

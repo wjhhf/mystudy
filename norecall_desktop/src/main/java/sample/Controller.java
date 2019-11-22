@@ -52,8 +52,12 @@ public class Controller {
 
     }
     @FXML
-    protected void about(ActionEvent event){
-        createInformationAlert("关于本软件","version:v1.0\r\nauthor:hehuifeng\r\nqq:372573336");
+    protected void aboutApp(ActionEvent event){
+        createInformationAlert("关于本软件","version:v1.0\r\nauthor:hehuifeng\r\nqq:372573336\r\n");
+    }
+    @FXML
+    protected void course(ActionEvent event){
+        createInformationAlert("教程","1、点击步骤，选择步骤1，选择微信文件存放位置(pc版微信点击左下角设置->通用设置->文件管理中的文件地址)。\r\n2、点击步骤，选择步骤2，填写自己的微信账号。\r\n3、点击步骤，选择步骤3，选择撤回文件存放位置。\r\n4、点击开始监控，程序开始监控。\r\n");
     }
 
     @FXML
@@ -100,8 +104,6 @@ public class Controller {
         if(alert==null){
             alert=new Alert(Alert.AlertType.INFORMATION);
             alert.setHeaderText(null);
-            alert.setWidth(30);
-            alert.setHeight(10);
         }
         alert.setTitle(title);
         alert.setContentText(content);

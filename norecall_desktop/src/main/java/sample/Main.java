@@ -17,7 +17,7 @@ public class Main extends Application {
         monitorBean= new MonitorBean();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/norecall.fxml"));
         primaryStage.setTitle("PC微信照片防撤回");
-        primaryStage.setScene(new Scene(root,300,130));
+        primaryStage.setScene(new Scene(root,260,130));
         primaryStage.show();
         stage.setOnCloseRequest((e)->{System.exit(0);});
     }

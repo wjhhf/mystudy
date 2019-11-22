@@ -1,7 +1,10 @@
 package com.hhf.study.util;
 
+import com.hhf.study.constant.FileConstant;
+
 import java.io.*;
 import java.nio.channels.FileChannel;
+import java.nio.channels.FileLock;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributeView;
 import java.nio.file.attribute.BasicFileAttributes;
@@ -65,29 +68,41 @@ public class FileUtil {
     }
 
     public static boolean copyFile(File src,File des) throws Exception{
+        if (!src.exists()) {
+            return false;
+        }
+        if (!des.exists()) {
+            des.createNewFile();
+        }
+        RandomAccessFile srcFile = new RandomAccessFile(src,"rw");
+        RandomAccessFile desFile = new RandomAccessFile(des,"rw");
         FileChannel inputChannel = null;
         FileChannel outputChannel = null;
-        FileInputStream inputStream=null;
-        FileOutputStream outputStream =null;
+        FileLock lockInput=null;
+        FileLock lockOutput=null;
         try {
-            if (!src.exists()) {
-                return false;
+            inputChannel = srcFile.getChannel();
+            outputChannel = desFile.getChannel();
+            while (null == lockInput) {
+                try {
+                    lockInput = inputChannel.lock();
+                } catch (Exception e) {
+                    System.out.println("Write Process : get inputLock failed");
+                }
             }
-            if (!des.exists()) {
-                des.createNewFile();
+            while (null == outputChannel) {
+                try {
+                    lockOutput = outputChannel.lock();
+                } catch (Exception e) {
+                    System.out.println("Write Process : get outputLock failed");
+                }
             }
-            inputStream = new FileInputStream(src);
-            outputStream = new FileOutputStream(des);
-            inputChannel = inputStream.getChannel();
-            outputChannel = outputStream.getChannel();
-            outputChannel.transferFrom(inputChannel, 0, inputChannel.size());
+            if(lockInput!=null&&lockOutput!=null){
+                outputChannel.transferFrom(inputChannel, 0, inputChannel.size());
+                lockInput.release();
+                lockOutput.release();
+            }
         }finally {
-            if(inputStream!=null){
-                inputStream.close();
-            }
-            if(outputStream!=null){
-                outputStream.close();
-            }
             if(inputChannel!=null){
                 inputChannel.close();
             }
