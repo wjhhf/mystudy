@@ -16,9 +16,10 @@ public class Main extends Application {
         stage=primaryStage;
         monitorBean= new MonitorBean();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/norecall.fxml"));
-        primaryStage.setTitle("PCå¾®ä¿¡ç…§ç‰‡é˜²æ’¤å›ž");
-        primaryStage.setScene(new Scene(root,260,130));
-        primaryStage.show();
+        stage.setTitle("PCÎ¢ÐÅ·À³·»ØÕÕÆ¬");
+        stage.setResizable(false);
+        stage.setScene(new Scene(root,260,130));
+        stage.show();
         stage.setOnCloseRequest((e)->{System.exit(0);});
     }
 

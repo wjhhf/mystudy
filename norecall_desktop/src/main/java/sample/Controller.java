@@ -20,8 +20,8 @@ public class Controller {
     @FXML
     protected void chooseMonitorDir(ActionEvent event) {
             directoryChooser=new DirectoryChooser();
-            directoryChooser.setInitialDirectory(new File(System.getProperty("user.dir")));   //è®¾ç½®åˆå§‹è·¯å¾„ï¼Œé»˜è®¤ä¸ºå½“å‰è·¯å¾„
-            directoryChooser.setTitle("é€‰æ‹©ç”µè„‘ç‰ˆå¾®ä¿¡å­˜æ”¾åœ°å€");
+            directoryChooser.setInitialDirectory(new File(System.getProperty("user.dir")));   //ÉèÖÃ³õÊ¼Â·¾¶£¬Ä¬ÈÏÎªµ±Ç°Â·¾¶
+            directoryChooser.setTitle("Ñ¡ÔñµçÄÔ°æÎ¢ĞÅ´æ·ÅµØÖ·");
             File monitorDir=directoryChooser.showDialog(Main.stage);
             if(monitorDir!=null){
                 Main.monitorBean.setMonitorDir(monitorDir.getAbsolutePath());
@@ -32,9 +32,9 @@ public class Controller {
     @FXML
     protected void sendWechatId(ActionEvent event){
         TextInputDialog dialog = new TextInputDialog("");
-        dialog.setTitle("è¯·è¾“å…¥å¾®ä¿¡è´¦å·");
+        dialog.setTitle("ÇëÊäÈëÎ¢ĞÅÕËºÅ");
 
-        // ä¼ ç»Ÿçš„è·å–è¾“å…¥å€¼çš„æ–¹æ³•
+        // ´«Í³µÄ»ñÈ¡ÊäÈëÖµµÄ·½·¨
         Optional result = dialog.showAndWait();
         if (result.isPresent()) {
             Main.monitorBean.setWechatId(result.get().toString());
@@ -43,8 +43,8 @@ public class Controller {
     @FXML
     protected void chooseDescDir(ActionEvent event) {
         directoryChooser=new DirectoryChooser();
-        directoryChooser.setInitialDirectory(new File(System.getProperty("user.dir")));   //è®¾ç½®åˆå§‹è·¯å¾„ï¼Œé»˜è®¤ä¸ºå½“å‰è·¯å¾„
-        directoryChooser.setTitle("é€‰æ‹©å¤‡ä»½æ–‡ä»¶å­˜æ”¾åœ°å€");
+        directoryChooser.setInitialDirectory(new File(System.getProperty("user.dir")));   //ÉèÖÃ³õÊ¼Â·¾¶£¬Ä¬ÈÏÎªµ±Ç°Â·¾¶
+        directoryChooser.setTitle("Ñ¡Ôñ±¸·İÎÄ¼ş´æ·ÅµØÖ·");
         File monitorDir=directoryChooser.showDialog(Main.stage);
         if(monitorDir!=null){
             Main.monitorBean.setDescDir(monitorDir.getAbsolutePath());
@@ -53,51 +53,57 @@ public class Controller {
     }
     @FXML
     protected void aboutApp(ActionEvent event){
-        createInformationAlert("å…³äºæœ¬è½¯ä»¶","version:v1.0\r\nauthor:hehuifeng\r\nqq:372573336\r\n");
+        createInformationAlert("¹ØÓÚ±¾Èí¼ş","version:v1.0\r\nauthor:hehuifeng\r\nqq:372573336\r\n");
     }
     @FXML
     protected void course(ActionEvent event){
-        createInformationAlert("æ•™ç¨‹","1ã€ç‚¹å‡»æ­¥éª¤ï¼Œé€‰æ‹©æ­¥éª¤1ï¼Œé€‰æ‹©å¾®ä¿¡æ–‡ä»¶å­˜æ”¾ä½ç½®(pcç‰ˆå¾®ä¿¡ç‚¹å‡»å·¦ä¸‹è§’è®¾ç½®->é€šç”¨è®¾ç½®->æ–‡ä»¶ç®¡ç†ä¸­çš„æ–‡ä»¶åœ°å€)ã€‚\r\n2ã€ç‚¹å‡»æ­¥éª¤ï¼Œé€‰æ‹©æ­¥éª¤2ï¼Œå¡«å†™è‡ªå·±çš„å¾®ä¿¡è´¦å·ã€‚\r\n3ã€ç‚¹å‡»æ­¥éª¤ï¼Œé€‰æ‹©æ­¥éª¤3ï¼Œé€‰æ‹©æ’¤å›æ–‡ä»¶å­˜æ”¾ä½ç½®ã€‚\r\n4ã€ç‚¹å‡»å¼€å§‹ç›‘æ§ï¼Œç¨‹åºå¼€å§‹ç›‘æ§ã€‚\r\n");
+        createInformationAlert("½Ì³Ì","1¡¢µã»÷²½Öè£¬Ñ¡Ôñ²½Öè1£¬Ñ¡ÔñÎ¢ĞÅÎÄ¼ş´æ·ÅÎ»ÖÃ(pc°æÎ¢ĞÅµã»÷×óÏÂ½ÇÉèÖÃ->Í¨ÓÃÉèÖÃ->ÎÄ¼ş¹ÜÀíÖĞµÄÎÄ¼şµØÖ·)¡£\r\n2¡¢µã»÷²½Öè£¬Ñ¡Ôñ²½Öè2£¬ÌîĞ´×Ô¼ºµÄÎ¢ĞÅÕËºÅ¡£\r\n3¡¢µã»÷²½Öè£¬Ñ¡Ôñ²½Öè3£¬Ñ¡Ôñ³·»ØÎÄ¼ş´æ·ÅÎ»ÖÃ¡£\r\n4¡¢µã»÷¿ªÊ¼¼à¿Ø£¬³ÌĞò¿ªÊ¼¼à¿Ø¡£\r\n");
     }
 
     @FXML
     protected void monitor(ActionEvent event){
-        if(monitorButton.getText().equals("å¼€å§‹ç›‘æ§")){
-            monitorButton.setText("æš‚åœç›‘æ§");
-            startMonitor();
-        }else if(monitorButton.getText().equals("æš‚åœç›‘æ§")){
-            monitorButton.setText("ç»§ç»­ç›‘æ§");
+        if(monitorButton.getText().equals("¿ªÊ¼¼à¿Ø")){
+            if(startMonitor()){
+                createInformationAlert(null,"¿ªÊ¼¼à¿Ø!");
+                monitorButton.setText("ÔİÍ£¼à¿Ø");
+            }
+        }else if(monitorButton.getText().equals("ÔİÍ£¼à¿Ø")){
             stopMonitor();
-        }else if(monitorButton.getText().equals("ç»§ç»­ç›‘æ§")){
-            monitorButton.setText("æš‚åœç›‘æ§");
+            createInformationAlert(null,"ÔİÍ£¼à¿Ø!");
+            monitorButton.setText("¼ÌĞø¼à¿Ø");
+        }else if(monitorButton.getText().equals("¼ÌĞø¼à¿Ø")){
             continueMonitor();
+            createInformationAlert(null,"¼ÌĞø¼à¿Ø!");
+            monitorButton.setText("ÔİÍ£¼à¿Ø");
         }
     }
 
-    private void startMonitor(){
-        Main.monitorBean.setMonitorDir("D:\\wechat\\WeChat Files");
+    private boolean startMonitor(){
+        /*Main.monitorBean.setMonitorDir("D:\\wechat\\WeChat Files");
         Main.monitorBean.setWechatId("qq372573336");
-        Main.monitorBean.setDescDir("D:\\convert");
+        Main.monitorBean.setDescDir("D:\\convert");*/
         if(Main.monitorBean.getMonitorDir()!=null
                 &&Main.monitorBean.getWechatId()!=null
                 &&Main.monitorBean.getDescDir()!=null){
             NoRecallApplication.start(Main.monitorBean.getMonitorDir(),Main.monitorBean.getWechatId(),Main.monitorBean.getDescDir());
-            createInformationAlert(null,"å·²å¼€å§‹ç›‘æ§ï¼");
+            return true;
         }else{
-            alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("é”™è¯¯æç¤º");
-            alert.setContentText("è¯·æŒ‰æ­¥éª¤é¡ºåºä¾æ¬¡å®Œæˆ!");
+            alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("´íÎóÌáÊ¾");
+            alert.setHeaderText(null);
+            alert.setContentText("Çë°´²½ÖèË³ĞòÒÀ´ÎÍê³É!");
             alert.showAndWait();
+            return false;
         }
     }
 
     private void stopMonitor(){
         NoRecallApplication.stopLister();
-        createInformationAlert(null,"å·²åœæ­¢ç›‘æ§ï¼");
+        createInformationAlert(null,"ÒÑÍ£Ö¹¼à¿Ø£¡");
     }
     private void continueMonitor(){
         NoRecallApplication.continueLister();
-        createInformationAlert(null,"å·²ç»§ç»­ç›‘æ§ï¼");
+        createInformationAlert(null,"ÒÑ¼ÌĞø¼à¿Ø£¡");
     }
 
     private Alert createInformationAlert(String title,String content){
